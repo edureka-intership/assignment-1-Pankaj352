@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.logoBar{
+    top: 0px;
+left: 0px;
+width: 1440px;
+height: 80px;
+background: #CE0505 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.circle{
+    padding: 13px 0px 0px 100px;
+     
+}
+ 
+.logo{
+    color: #eb2929;
+    text-align: center;
+    justify-content: center;
+    border-style: solid;
+     border-radius:100px;  
+     height: 52px;
+     width:52px;
+     background-color:#fff;
+    font-size:37px;
+    font-weight: bold;
+    font-family:system-ui;
+    
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: right; 
+    top: 29px;
+    position: absolute;
+    left: 1160px;
+    height: 30px;
+    font-family: sans-serif
+}
+.btn1{
+    background-color: #CE0505;
+    color: #fff;       
+     cursor: pointer; 
+     border-color:#eb2929;
+     opacity: 1;
+     width: 70px;
+     border:  #fff;
+
+     
+}
+.btn2{
+    background-color: #CE0505;
+    color: #fff; 
+    cursor: pointer; 
+    border-color:#eb2929;
+    padding-left: 0;
+    width: 150px;
+    border: 1px solid #fff;
+        
+}
+ .heading{
+   color: #192F60;
+   padding:30px 0px 30px 40px;
+   width: 530px;
+   height: 51px;
+   text-align: left;
+    font-family:  sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+   letter-spacing: 0px;
+   opacity: 1;
+ }
+
+ .h3{
+    color: #192F60;
+    font-size: 25px;
+    padding:0px 0px 20px 0px;
+ }
+.filter{
+    width: 260px;
+    background-color: #fff;
+    height: 560px;   
+    padding: 30px;
+    margin-left:40px;
+    box-shadow: 0px 3px 6px #00000029;
+    font-family:  sans-serif;
+     
+
+}
+.filter2{
+    display: none;
+}
+.location_container{
+    padding-top: 5px;
+     
+}
+#location{
+    width: 80%;
+    height: 30px;
+    color: #8C96AB;
+    border: 1.5px solid #8C96AB;
+    border-radius: 5px;
+}
+.checkbox_food{
+    color:#8C96AB;
+    font: normal normal normal 14px/21px Poppins;
+    padding-top: 20px;
+}
+.filter_price{
+    color:#8C96AB;
+    font: normal normal normal 14px/21px Poppins;
+        padding-top: 20px;
+}
+#loca{
+    padding-top: 10px;
+}
+.sort_cost{
+    color:#8C96AB;
+    font: normal normal normal 14px/21px Poppins;
+    padding-top: 20px;
+}
+.span{
+    font-weight: bold;
+    font-size:15px;
+    color: #192F60;
+}
+/***************Food container 1*****************/
+.food_items{
+    width: 794px;
+    position: absolute;
+    left: 420px;
+    top: 190px;
+    margin-right: 0px;
+    height: 241px;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;    
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.food1_img{
+    border-radius: 40px;
+    margin: 10px 0px 0px 30px;
+    width:120px ;
+    opacity: 1;
+    height: 120px;
+    position: absolute;
+}
+.food_name_container{
+    float: left;
+    padding-left: 200px;
+    font-family: sans-serif;
+    padding-top:0px;
+     
+}
+
+.food_name{
+    padding-top:-15px;
+    width: 303px;
+    position: absolute;
+    height: 43px;
+    text-align: left;
+    font: normal normal 600 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+.fort1{
+    padding-top:55px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+.address1{
+    color: #8C96AB;
+    padding-top:15px;
+}
+.hr{
+    border: 1px solid #DEDFE5;
+    background-color: #DEDFE5;
+    float: right;
+    position: absolute;
+    width: 700px;
+    top: 150px;
+    
+}
+
+.para1{
+    float: left;
+    position: absolute;
+    top: 160px;
+    padding: 0px 0px 0px 30px;
+    font-family:'Poppins' ;
+    color: #8C96AB;
+}
+.para2{
+    float: left;
+    position: absolute;
+    top: 185px;
+    padding: 0px 0px 0px 30px;
+    font-family:'Poppins' ;
+    color: #8C96AB;
+}
+.price1{
+    color:#192F60;
+    padding-left: 100px;
+    font-style: bold;
+}
+.price2{
+    color:#192F60;
+    padding-left: 58px;
+    font-weight: bold;
+}
+/*-----------------------------Food container 2-----------------------------------*/
+
+.food_items2{
+    width: 794px;
+    position: absolute;
+    left: 420px;
+    margin-right: 0px;
+    height: 251px;
+    top: 480px;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;    
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.pagination-container{
+     position: absolute;
+     top: 766px;
+     padding-left: 50%;
+     font: normal normal medium 20px/30px Poppins;
+}
+.pagination{
+    display: inline-block;
+}
+.li{
+    display: inline;
+}
+.a{
+    color: #192F60;
+    text-decoration:none;
+    padding:10px;
+    font-size: 15px;
+    border: 1px solid #192F60;
+    border-radius:8px;
+
+}
+.active{
+    background-color: #192F60;
+    color: #fff;
+} 
